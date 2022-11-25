@@ -1,0 +1,45 @@
+{
+  "weapons": [
+   {
+    "id": 1,
+    "name": "TwoHandAxe",
+    "min_damage": 2.5,
+    "max_damage": 4.1,
+    "stamina_per_hit": 2.8
+  },
+  {
+    "id": 2,
+    "name": "Knife",
+    "min_damage": 1.2,
+    "max_damage": 2.5,
+    "stamina_per_hit": 5.3
+  },
+  {
+  "id": 3,
+  "name": "Sword",
+  "max_damage": 2,
+  "min_damage": 2.5,
+  "stamina_per_hit": 4
+  }
+],
+  "armors": [
+  {
+    "id": 1,
+    "name": "SkyArmor",
+    "defence": 5.0,
+    "stamina_per_turn": 3.0
+    },
+    {
+    "id": 2,
+    "name":"HellArmor",
+    "defence": 3.2,
+    "stamina_per_turn": 6.1
+    },
+    {
+    "id": 3,
+    "name": "UnderArmor",
+    "defence": 2.0,
+    "stamina_per_turn": 1.6
+    }
+  ]
+}
