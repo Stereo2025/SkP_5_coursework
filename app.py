@@ -107,7 +107,7 @@ def choose_hero():
 @app.route("/choose-enemy/", methods=['post', 'get'])
 def choose_enemy():
     """
-    кнопка выбор соперников. 2 метода GET и POST также на GET отрисовываем форму.
+    кнопка выбор соперников. 2 метода GET and POST также на GET отрисовываем форму.
     а на POST отправляем форму и делаем редирект на начало битвы
     """
     if request.method == "GET":
